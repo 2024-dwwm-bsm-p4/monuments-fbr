@@ -1,3 +1,6 @@
+/* ----------------------------------------------------------------- */
+/* --------------------- First Commit du Brief --------------------- */
+/* ----------------------------------------------------------------- */
 :root {
     --black: #1E1E1E;
     --white: #FFFFFF;
@@ -65,4 +68,188 @@ a {
 #root,
 #__next {
     isolation: isolate;
+}
+
+/* ----------------------- Le Body ----------------------- */
+body {
+    background-color: #343a40;
+    color: white;
+}
+
+/* -------------------------------------------------------- */
+/* ----------------------- Top Page ----------------------- */
+/* -------------------------------------------------------- */
+.topPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.headerDesc {
+text-decoration: underline;
+}
+
+/* Styles de base pour les boutons */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transition pour hover */
+    margin: 25px;
+    width: 50%;
+  }
+  
+  /* Effet survol (hover) */
+  .btn:hover {
+    transform: translateY(-3px); /* Animation de soulèvement */
+  }
+  
+  /* Style spécifique pour le bouton "dark" */
+  .btn-dark {
+    background-color: #343a40;
+    color: white;
+  }
+  
+  .btn-dark:hover {
+    background-color: #23272b;
+  }
+
+  /* ------------------- Liste des Monuments ------------------- */
+  .monuments {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+    height: auto;
+  }
+
+  /* ------------------- Tour Eiffel ------------------- */
+  .eiffel-tower {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: auto;
+  }
+  
+  #eiffelTowerImg {
+    display: block;
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+    border: solid 1px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+  }
+
+  /* ------------------- Notre-Dame ------------------- */
+  .notre-dame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: auto;
+  }
+  
+  #notreDameImg {
+    display: block;
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+    border: solid 1px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+  }
+
+  /* ------------------- Arc de Triomphe ------------------- */
+  .arch-of-triumph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: auto;
+  }
+  
+  #archOfTriumphImg {
+    display: block;
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+    border: solid 1px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+  }
+
+  /* ------------------- Mont Saint-Michel ------------------- */
+  .mont-saint-michel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: auto;
+  }
+  
+  #montSaintMichelImg {
+    display: block;
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+    border: solid 1px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+  }
+
+  /* ------------------- Versailles ------------------- */
+  .versailles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: auto;
+  }
+  
+  #versaillesImg {
+    display: block;
+    width: 100%;
+    height: 375px;
+    object-fit: cover;
+    border: solid 1px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+  }
+
+/* ----------------------------------------------------------- */
+/* ----------------------- Bottom Page ----------------------- */
+/* ----------------------------------------------------------- */
+.informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 50px;
 }
