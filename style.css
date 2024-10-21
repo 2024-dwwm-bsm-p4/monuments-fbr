@@ -156,11 +156,17 @@ text-decoration: underline;
   #eiffelTowerImg {
     display: block;
     width: 100%;
-    height: 375px;
+    max-height: 375px;
     object-fit: cover;
     border: solid 1px;
     border-top: solid 2px;
     border-bottom: solid 2px;
+    filter: blur(5px) grayscale(100%);
+  }
+
+  #eiffelTowerImg:hover {
+    filter: blur(0px) grayscale(0%);
+    cursor: pointer;
   }
 
   /* ------------------- Notre-Dame ------------------- */
@@ -176,11 +182,17 @@ text-decoration: underline;
   #notreDameImg {
     display: block;
     width: 100%;
-    height: 375px;
+    max-height: 375px;
     object-fit: cover;
     border: solid 1px;
     border-top: solid 2px;
     border-bottom: solid 2px;
+    filter: blur(5px) grayscale(100%);
+  }
+
+  #notreDameImg:hover {
+    filter: blur(0px) grayscale(0%);
+    cursor: pointer;
   }
 
   /* ------------------- Arc de Triomphe ------------------- */
@@ -196,11 +208,17 @@ text-decoration: underline;
   #archOfTriumphImg {
     display: block;
     width: 100%;
-    height: 375px;
+    max-height: 375px;
     object-fit: cover;
     border: solid 1px;
     border-top: solid 2px;
     border-bottom: solid 2px;
+    filter: blur(5px) grayscale(100%);
+  }
+
+  #archOfTriumphImg:hover {
+    filter: blur(0px) grayscale(0%);
+    cursor: pointer;
   }
 
   /* ------------------- Mont Saint-Michel ------------------- */
@@ -216,11 +234,17 @@ text-decoration: underline;
   #montSaintMichelImg {
     display: block;
     width: 100%;
-    height: 375px;
+    max-height: 375px;
     object-fit: cover;
     border: solid 1px;
     border-top: solid 2px;
     border-bottom: solid 2px;
+    filter: blur(5px) grayscale(100%);
+  }
+
+  #montSaintMichelImg:hover {
+    filter: blur(0px) grayscale(0%);
+    cursor: pointer;
   }
 
   /* ------------------- Versailles ------------------- */
@@ -236,11 +260,17 @@ text-decoration: underline;
   #versaillesImg {
     display: block;
     width: 100%;
-    height: 375px;
+    max-height: 375px;
     object-fit: cover;
     border: solid 1px;
     border-top: solid 2px;
     border-bottom: solid 2px;
+    filter: blur(5px) grayscale(100%);
+  }
+
+  #versaillesImg:hover {
+    filter: blur(0px) grayscale(0%);
+    cursor: pointer;
   }
 
 /* ----------------------------------------------------------- */
@@ -252,4 +282,9 @@ text-decoration: underline;
     justify-content: flex-start;
     align-items: flex-start;
     margin-left: 50px;
+}
+
+#monumentLocation {
+    
+    font-size: 24px;
 }
