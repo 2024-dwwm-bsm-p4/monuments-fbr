@@ -276,15 +276,30 @@ text-decoration: underline;
 /* ----------------------------------------------------------- */
 /* ----------------------- Bottom Page ----------------------- */
 /* ----------------------------------------------------------- */
+.bottomPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .informations {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     margin-left: 50px;
+    margin-bottom: 25px;
 }
 
 #monumentLocation {
     
     font-size: 24px;
+}
+
+#map {
+  margin-top: 25px;
+  margin-bottom: 25px;
+    height: 685px;
+    width: 685px;
 }
