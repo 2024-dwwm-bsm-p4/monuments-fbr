@@ -298,8 +298,9 @@ text-decoration: underline;
 }
 
 #map {
-  margin-top: 25px;
-  margin-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
     height: 685px;
     width: 685px;
+    border: solid 2px;
 }
