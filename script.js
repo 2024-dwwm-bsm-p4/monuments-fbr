@@ -14,7 +14,7 @@ let montSaintMichelImg = document.getElementById("montSaintMichelImg");
 let versaillesImg = document.getElementById("versaillesImg");
 
 let monumentName = document.getElementById("monumentName");
-let monumenLocation = document.getElementById("monumenLocation");
+let monumentLocation = document.getElementById("monumentLocation");
 let monumentDesc = document.getElementById("monumentDesc");
 
 let bottomPage = document.getElementsByClassName("bottomPage");
