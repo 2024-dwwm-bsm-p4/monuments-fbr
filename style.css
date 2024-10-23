@@ -304,3 +304,19 @@ text-decoration: underline;
     width: 685px;
     border: solid 2px;
 }
+
+/* Faire slides les informations depuis la gauche */
+@keyframes slideInFromLeft {
+  0% {
+      transform: translateX(-100%); /* Positionne le texte en dehors de l'écran à gauche */
+      opacity: 0; /* Rendre le texte transparent */
+  }
+  100% {
+      transform: translateX(0); /* Retourne à la position d'origine */
+      opacity: 1; /* Rendre le texte visible */
+  }
+}
+
+.slidein {
+  animation: slideInFromLeft 1s ease-out forwards;
+}

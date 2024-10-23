@@ -49,6 +49,9 @@ if (eiffelTowerBtn.addEventListener("click", function() {
         top: document.body.scrollHeight, // Ajuste la valeur selon l'endroit où tu veux défiler
         behavior: 'smooth' // Pour un défilement fluide
     });
+    monumentName.classList.add('slidein');
+    monumentLocation.classList.add('slidein');
+    monumentDesc.classList.add('slidein');
 }));
 
 if (eiffelTowerImg.addEventListener("click", function() {
@@ -63,6 +66,9 @@ if (eiffelTowerImg.addEventListener("click", function() {
         top: document.body.scrollHeight, // Ajuste la valeur selon l'endroit où tu veux défiler
         behavior: 'smooth' // Pour un défilement fluide
     });
+    monumentName.classList.add('slidein');
+    monumentLocation.classList.add('slidein');
+    monumentDesc.classList.add('slidein');
 }));
 
 // --------------- Notre-Dame ---------------
@@ -78,6 +84,9 @@ if (notreDameBtn.addEventListener("click", function() {
         top: document.body.scrollHeight, // Ajuste la valeur selon l'endroit où tu veux défiler
         behavior: 'smooth' // Pour un défilement fluide
     });
+    monumentName.classList.add('slidein');
+    monumentLocation.classList.add('slidein');
+    monumentDesc.classList.add('slidein');
 }));
 
 if (notreDameImg.addEventListener("click", function() {
@@ -92,6 +101,9 @@ if (notreDameImg.addEventListener("click", function() {
         top: document.body.scrollHeight, // Ajuste la valeur selon l'endroit où tu veux défiler
         behavior: 'smooth' // Pour un défilement fluide
     });
+    monumentName.classList.add('slidein');
+    monumentLocation.classList.add('slidein');
+    monumentDesc.classList.add('slidein');
 }));
 
 // --------------- Arc de Triomphe ---------------
@@ -107,6 +119,9 @@ if (archOfTriumphBtn.addEventListener("click", function() {
         top: document.body.scrollHeight, // Ajuste la valeur selon l'endroit où tu veux défiler
         behavior: 'smooth' // Pour un défilement fluide
     });
+    monumentName.classList.add('slidein');
+    monumentLocation.classList.add('slidein');
+    monumentDesc.classList.add('slidein');
 }));
 
 if (archOfTriumphImg.addEventListener("click", function() {
@@ -121,6 +136,9 @@ if (archOfTriumphImg.addEventListener("click", function() {
         top: document.body.scrollHeight, // Ajuste la valeur selon l'endroit où tu veux défiler
         behavior: 'smooth' // Pour un défilement fluide
     });
+    monumentName.classList.add('slidein');
+    monumentLocation.classList.add('slidein');
+    monumentDesc.classList.add('slidein');
 }));
 
 // --------------- Mont Saint-Michel ---------------
@@ -136,6 +154,9 @@ if (montSaintMichelBtn.addEventListener("click", function() {
         top: document.body.scrollHeight, // Ajuste la valeur selon l'endroit où tu veux défiler
         behavior: 'smooth' // Pour un défilement fluide
     });
+    monumentName.classList.add('slidein');
+    monumentLocation.classList.add('slidein');
+    monumentDesc.classList.add('slidein');
 }));
 
 if (montSaintMichelImg.addEventListener("click", function() {
@@ -150,6 +171,9 @@ if (montSaintMichelImg.addEventListener("click", function() {
         top: document.body.scrollHeight, // Ajuste la valeur selon l'endroit où tu veux défiler
         behavior: 'smooth' // Pour un défilement fluide
     });
+    monumentName.classList.add('slidein');
+    monumentLocation.classList.add('slidein');
+    monumentDesc.classList.add('slidein');
 }));
 
 // --------------- Versailles ---------------
@@ -165,6 +189,9 @@ if (versaillesBtn.addEventListener("click", function() {
         top: document.body.scrollHeight, // Ajuste la valeur selon l'endroit où tu veux défiler
         behavior: 'smooth' // Pour un défilement fluide
     });
+    monumentName.classList.add('slidein');
+    monumentLocation.classList.add('slidein');
+    monumentDesc.classList.add('slidein');
 }));
 
 if (versaillesImg.addEventListener("click", function() {
@@ -179,6 +206,9 @@ if (versaillesImg.addEventListener("click", function() {
         top: document.body.scrollHeight, // Ajuste la valeur selon l'endroit où tu veux défiler
         behavior: 'smooth' // Pour un défilement fluide
     });
+    monumentName.classList.add('slidein');
+    monumentLocation.classList.add('slidein');
+    monumentDesc.classList.add('slidein');
 }));
 
 // -----------------------------------------------------------------------
