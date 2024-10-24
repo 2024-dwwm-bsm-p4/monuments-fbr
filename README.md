@@ -94,12 +94,12 @@ Pour éviter les requêtes trop nombreuses vous pourrez afficher tous les monume
 |                                        | <ul><li>- [] ⭐</li><ul>     |                           |
 | ***Big Bonus***                        |                               |                           |
 | - Carte avec marqueurs via API         | <ul><li>- [x] &nbsp;</li><ul> |                           |
-|                                        |                               |
+|                                        | <ul><li>- [x] ⭐</li><ul>     |
 | ***Livrables***                        |                               |                           |
 | - Projet livré dans les délais         | <ul><li>- [x] &nbsp;</li><ul> |                           |
 |                                        | <ul><li>- [x] ⭐</li><ul>     |                           |
 
-**Nombre d'étoiles obtenues** : ⭐⭐⭐
+**Nombre d'étoiles obtenues** : ⭐⭐⭐⭐
 
 ## Ressources
 
